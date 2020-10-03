@@ -1,12 +1,10 @@
-//
-//  ViewController.swift
-//  WebContent
-//
-//  Created by Marcin Magiera on 03/10/2020.
-//
+## Get Web Content to App
 
-import UIKit
+Metoda umozliwia wyswietlenie strony www w aplikacji. 
 
+### 1. Tworzenie zmiennych i przechywcenie adresu URL wraz z trescia
+
+```
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -25,9 +23,7 @@ class ViewController: UIViewController {
         task.resume()
         
     }
-    
-
-
 
 }
 
+```
